@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-image: url('desktop_background.png');
+  background-color: hsl(0, 100%, 74%);
+  
+
+}
+main {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 90%;
+  max-width: 600px;
+  
+}
+
+.a {
+  background-color: transparent;
+  height: 70%;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b {
+  height: 70%;
+  width: 100%;
+  
+}
+.c {
+  background-color: hsl(248, 32%, 49%);
+  /* height: 10%; */
+  border-radius: 5px;
+  margin-bottom: 5%;
+  text-align: center;
+  color: white;
+  padding: 14px;
+}
+form {
+  background-color: white;
+  padding: 14px;
+  border-radius: 5px;
+  
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /* box-sizing: border-box; */
+  outline: none;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  /* width: 100%; */
+  /* padding: 12px 20px; */
+  /* margin: 8px 0; */
+  color: white;
+  /* box-sizing: border-box; */
+  border: none;
+  /* border-radius: 5px; */
+  background-color: hsl(154, 59%, 51%);
+  text-decoration: none;
+  text-align: center;
+}
+
+input:focus {
+  border: 2px solid gray;
+}
+
+@media screen and (max-width:600px) {
+  main{
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .a {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
