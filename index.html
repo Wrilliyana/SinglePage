@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Responsiveness</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   </head>
   <body>
     <main>
@@ -29,27 +30,34 @@
               type="text"
               id="first"
               name="first"
-              placeholder="First Name"
+              placeholder="First Name" required
             />
             <input
               type="text"
               id="last"
               name="last"
-              placeholder="Last Name"
+              placeholder="Last Name" required
             />
             <input
               type="email"
               id="email"
               name="email"
-              placeholder="Email Address"
+              placeholder="Email Address" required
             />
             <input
               type="password"
               id="password"
               name="password"
-              placeholder="Password"
+              placeholder="Password" required
             />
             <input type="submit" value="CLAIM YOUR FREE TRIAL" />
+            <p class="conditions">
+              By clicking the button, you are agreeing to our
+            <span class="terms"> Terms and Conditions</span>
+
+            </p>
+            
+            
           </form>
       </div>
     </main>
